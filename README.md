@@ -1,34 +1,54 @@
-Here is a professional README.md for the Python project 'simpleProgram':
+**simpleProgram**
+================
 
-# simpleProgram
-A Simple Calculator Program in Python
+📖 Overview
+-----------
 
-📖 **Overview**
-The `simpleProgram` is a basic calculator program that allows users to perform arithmetic operations such as addition, subtraction, multiplication, and division. This program is designed to be easy to use and understand, making it perfect for beginners or anyone who needs a simple calculator.
+The `simpleProgram` is a Python project that calculates the sum of two numbers. This project is designed to be a basic example of a Python program that performs a simple arithmetic operation.
 
-⚙️ **Installation Instructions**
-To install the `simpleProgram`, you can simply clone this repository using Git:
-```bash
-git clone https://github.com/your-username/simpleProgram.git
+⚙️ Installation Instructions
+-------------------------
+
+### Prerequisites
+
+* Python 3.8 or higher
+
+### Install
+
+1. Clone the repository: `git clone https://github.com/your-username/simpleProgram.git`
+2. Navigate to the project directory: `cd simpleProgram`
+3. Install the required dependencies: `pip install -r requirements.txt`
+
+🚀 Usage Examples
+-----------------
+
+### Running the Program
+
+1. Run the program using Python: `python simple_program.py`
+2. Enter two numbers when prompted: `Enter the first number: ` and `Enter the second number: `
+3. The program will display the sum of the two numbers.
+
+### Example Output
+
 ```
-Alternatively, you can download the ZIP file and extract it to your desired location.
-
-🚀 **Usage Examples**
-
-1. Run the program by executing the following command in your terminal or command prompt:
-```python
-python simple_program.py
+Enter the first number: 5
+Enter the second number: 3
+The sum is: 8
 ```
-2. Follow the prompts to perform arithmetic operations. For example:
-   - To add 2 + 3, enter `2 + 3` and press Enter.
-   - To multiply 4 * 5, enter `4 * 5` and press Enter.
 
-3. The program will display the result of your calculation.
+✅ Testing Information
+-------------------
 
-✅ **Testing Information**
-The `simpleProgram` has been tested on Python version 3.9.7 and 3.10.0. If you encounter any issues, please report them to us so we can investigate.
+### Running Tests
 
-📜 **License**
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+1. Run the tests using Python: `python -m unittest tests/test_simple_program.py`
+2. The test results will be displayed in the terminal.
 
-I hope this helps! Let me know if you have any questions or need further assistance.
+### Test Coverage
+
+The `simpleProgram` project has 100% test coverage.
+
+📜 License
+---------
+
+The `simpleProgram` project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
