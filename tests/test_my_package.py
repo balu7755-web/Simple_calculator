@@ -1,5 +1,12 @@
+import math
+from typing import Optional, Union
+
 import pytest
-from my_package.main import Calculator
+
+from src.simpleProgram.caculator import Calculator
+
+
+#from my_package.main import Calculator
 
 @pytest.mark.parametrize("a, b, expected", [
     (1.0, 2.0, 3.0),
